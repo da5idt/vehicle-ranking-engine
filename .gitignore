@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Jupyter/Databricks
+.ipynb_checkpoints/
+*.dbc
+*.dbfs
+.notebook/
+.notebook_checkpoint/
+
+# Environment and package management
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.poetry/
+*.lock
+
+# Databricks-specific
+# Ignore local workspace and metadata
+.databricks/
+# Ignore Databricks job run outputs/logs
+dbfs:/FileStore/
+dbfs:/databricks/init/
+dbfs:/databricks/scripts/
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.orc
+*.avro
+*.jsonl
+*.zip
+*.gz
+*.h5
+*.sqlite
+*.db
+
+# Config/secrets
+*.dbcreds
+*.key
+*.pem
+*.envrc
+secrets/
+conf/*.local
+conf/*.dev
+conf/*.test
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# VSCode
+.vscode/
+.history/
